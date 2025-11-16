@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd meteormadness && npm install && npm run build",
+  "outputDirectory": "meteormadness/dist",
+  "installCommand": "cd meteormadness && npm install"
+}
