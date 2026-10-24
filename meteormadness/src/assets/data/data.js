@@ -9,7 +9,7 @@ data = {
       "2015-09-08": [
         {
           "links": {
-            "self": "http://api.nasa.gov/neo/rest/v1/neo/2465633?api_key=gA4ufIb9Fftpl9BxVd7OkqZZ1KkeXMQhDOpsYwlY"
+            "self": "http://api.nasa.gov/neo/rest/v1/neo/2465633?api_key=DEMO_KEY"
           },
           "id": "2465633",
           "neo_reference_id": "2465633",
