@@ -67,7 +67,7 @@ npm run lint         # ESLint
 
 ## Configuration
 
-Create `meteormadness/.env.local`. Files matching `*.local` are already ignored by `meteormadness/.gitignore`.
+Copy `meteormadness/.env.example` to `meteormadness/.env.local` and fill in your values. Files matching `*.local` are already ignored by `meteormadness/.gitignore`, and the root `.gitignore` ignores `.env` files.
 
 ```env
 VITE_NASA_API_KEY=your-nasa-api-key

@@ -1,5 +1,11 @@
 {
   "buildCommand": "cd meteormadness && npm install && npm run build",
   "outputDirectory": "meteormadness/dist",
-  "installCommand": "cd meteormadness && npm install"
+  "installCommand": "cd meteormadness && npm install",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
